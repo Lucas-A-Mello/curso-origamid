@@ -3,3 +3,21 @@ a {
     text-decoration: none;
     font-size: 32px;
 }
+
+p a {
+    color: silver;
+    text-decoration: overline;
+    font-size: 16px;
+}
+
+#introducao {
+    color: brown;
+}
+
+.design {
+    color: crimson;
+}
+
+.grande{
+    color: lightgreen;
+}
