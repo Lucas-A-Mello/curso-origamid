@@ -4,12 +4,22 @@
     gap: 20px;
 }
 
-.foto {
-    grid-column: 1 / -1;
+.titulo {
+    grid-column: 2;
+    text-align: right;
+}
+
+.preco {
+    place-self: start end;
+}
+
+.comprar {
+    align-self: start;
+    text-align: center;
 }
 
 .descricao {
-    grid-column: 1 / -1;
+    text-align: right;
 }
 
 /*Estilos Gerais*/
