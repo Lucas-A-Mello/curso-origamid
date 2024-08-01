@@ -28,3 +28,27 @@ a:visited {
     background-color: #fda;
     color: #731;
 }
+
+.lista-1 li:last-child {
+    background-color: #cfa;
+}
+
+.lista-1 li:first-child {
+    background-color: #caf;
+}
+
+.lista-1 li:nth-child(3) {
+    background-color: #cfa;
+}
+
+.lista-2 li:nth-child(4n) {
+    background-color: #ffa;
+}
+
+.lista-3 li:not(:first-child, :last-child) {
+    background-color: #caf;
+}
+
+h2:not(.contato) {
+    text-decoration: underline;
+}
