@@ -1,0 +1,15 @@
+[required] {
+    border: 5px solid tomato;
+}
+
+[href^="#"] {
+    background: greenyellow;
+}
+
+[href$=".com"] {
+    background: aquamarine;
+} 
+
+section > h2 {
+    color: tomato;
+}
