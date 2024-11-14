@@ -1,0 +1,15 @@
+:root {
+    --cor-primaria: #84e;
+    --cor-texto: #141414;
+    --font-grande: 3rem;
+}
+
+h1 {
+    color: var(--cor-primaria);
+    font-size: var(--font-grande);
+}
+
+p {
+    color: var(--cor-texto);
+    font-size: calc(var(--font-grande) / 2);
+}
